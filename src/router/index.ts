@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Ex1 from '../views/Exercise1.vue'
+import Ex2 from '../views/Exercise2.vue'
+import Ex3 from '../views/Exercise3.vue'
 
 Vue.use(VueRouter)
 
@@ -11,12 +13,19 @@ const routes = [
     component: Ex1
   },
   {
+    path: '/ex2',
+    name: 'ex2',
+    component: Ex2
+  },
+  {
+    path: '/ex3',
+    name: 'ex3',
+    component: Ex3
+  },
+  {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import('../views/About.vue')
   }
 ]
 

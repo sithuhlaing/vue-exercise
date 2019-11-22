@@ -8,7 +8,7 @@
     <p>{{ random() }}</p>
     <!-- 4) Search any image on Google and output it here by binding the "src" attribute -->
     <div>
-      <img style="width:100px;height:100px" :src="src" />
+      <img style="width:100px;height:100px" :src="img" />
     </div>
     <!-- 5) Pre-Populate this input with your name (set the "value" attribute) -->
     <div>
@@ -24,7 +24,7 @@ export default {
     return {
       name: 'Si Thu Hlaing',
       age: 33,
-      src: 'https://avatars1.githubusercontent.com/u/885830?s=460&v=4'
+      img: 'https://avatars1.githubusercontent.com/u/885830?s=460&v=4'
     }
   },
   computed: {

@@ -19,3 +19,62 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Dependency directories
+jspm_packages
+
+# Build output
+build
+coverage
+lib
+temp      
+dist
+out
+
+# Miscellaneous
+*.tgz
+*.log
+*.bak
+*.tmp
+*.swp
+*.orig
+*.DS_Store
+*.pem
+*.p12
+*.key
+*.crt
+*.cer
+*.jks
+*.pfx
+*.sublime-workspace
+*.sublime-project
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+*.db
+*.sublime-workspace
+*.sublime-project
+
+# IDE specific files
+*.iml
+*.ipr
+*.iws
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*.swo
+
+yarn-error.log
+lerna-debug.log
+lerna-debug.log.*
+
+yarn.lock
+package-lock.json
+
+# Coverage reports
+coverage/
+*.lcov
